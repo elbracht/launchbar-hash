@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>Hash.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.elbracht.hash</string>
+	<key>CFBundleName</key>
+	<string>Hash</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>LBArgument</key>
+	<string>Password.</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>Password.</string>
+		<key>LBAuthor</key>
+		<string>Alexander Elbracht</string>
+		<key>LBEmail</key>
+		<string>alexander@elbracht.org</string>
+		<key>LBResult</key>
+		<string>Password as hash function.</string>
+		<key>LBSummary</key>
+		<string>Generate different cryptographic hash functions (SHA512, SHA256, MD5).</string>
+		<key>LBWebsite</key>
+		<string>https://gitlab.elbracht.org/launchbar/hash</string>
+	</dict>
+	<key>LBResult</key>
+	<string>Password as hash function.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
