@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>Hash</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.0</string>
+	<string>0.2.0</string>
 	<key>LBArgument</key>
 	<string>Password.</string>
 	<key>LBDescription</key>
