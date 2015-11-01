@@ -43,17 +43,17 @@ function copy(item) {
 }
 
 function ssha512(cleartext, salt) {
-  salt = (typeof(salt) === 'undefined') ? CryptoJS.lib.WordArray.random(4) : CryptoJS.enc.Utf8.parse(salt);
-  var plain = CryptoJS.enc.Utf8.parse(cleartext);
-  var digest = CryptoJS.SHA512(plain.concat(salt));
-  var ssha = '{SSHA512}' + digest.concat(salt).toString(CryptoJS.enc.Base64);
-  return ssha;
+    salt = (typeof(salt) === 'undefined') ? CryptoJS.lib.WordArray.random(4) : CryptoJS.enc.Utf8.parse(salt);
+    var plain = CryptoJS.enc.Utf8.parse(cleartext);
+    var digest = CryptoJS.SHA512(plain.concat(salt));
+    var ssha = '{SSHA512}' + digest.concat(salt).toString(CryptoJS.enc.Base64);
+    return ssha;
 }
 
 function ssha256(cleartext, salt) {
-  salt = (typeof(salt) === 'undefined') ? CryptoJS.lib.WordArray.random(4) : CryptoJS.enc.Utf8.parse(salt);
-  var plain = CryptoJS.enc.Utf8.parse(cleartext);
-  var digest = CryptoJS.SHA256(plain.concat(salt));
-  var ssha = '{SSHA256}' + digest.concat(salt).toString(CryptoJS.enc.Base64);
-  return ssha;
+    salt = (typeof(salt) === 'undefined') ? CryptoJS.lib.WordArray.random(4) : CryptoJS.enc.Utf8.parse(salt);
+    var plain = CryptoJS.enc.Utf8.parse(cleartext);
+    var digest = CryptoJS.SHA256(plain.concat(salt));
+    var ssha = '{SSHA256}' + digest.concat(salt).toString(CryptoJS.enc.Base64);
+    return ssha;
 }
