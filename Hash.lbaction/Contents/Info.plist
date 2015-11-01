@@ -47,8 +47,6 @@
 			<string>unknown</string>
 			<key>LBReturnsResult</key>
 			<true/>
-			<key>LBRunInBackground</key>
-			<true/>
 			<key>LBScriptName</key>
 			<string>default.js</string>
 		</dict>
