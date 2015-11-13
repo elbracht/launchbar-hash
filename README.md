@@ -9,4 +9,4 @@ Generate different cryptographic hash functions (SHA512, SHA256, MD5).
 
 ## Demo
 
-![](./demo.gif)
+![](https://raw.githubusercontent.com/skaren/launchbar-hash/master/demo.gif)
